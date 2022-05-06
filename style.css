@@ -1,0 +1,163 @@
+/*
+Tarea Computo 2
+Integrantes:
+Angel Diego Hidalgo Cartagena
+Henry Validmir Rubio Flores
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #0B363B;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  background-color: #0B363B;
+  height: 500px;
+}
+
+.infoNav {
+
+  width: 100%;
+  background: rgb(255, 159, 69);
+  background: linear-gradient(90deg, rgba(255, 159, 69, 1) 25%, rgba(252, 79, 79, 1) 74%);
+  text-align: center;
+}
+
+.principal {
+
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #0B363B;
+}
+
+.barrahorizontal {
+  width: 90%;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  background-color: #4E944F;
+  border-radius: 10px;
+  margin: 0 auto 0 auto;
+}
+
+.colum {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px 7px 0 0;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background-color: #0B363B;
+  width: 25px;
+  height: 150px;
+  margin: 40px auto 0 auto;
+  justify-content: center;
+  position: relative;
+
+
+
+}
+
+
+
+.circulo5 {
+  width: 100px;
+  height: 25px;
+  background-color: #890F0D;
+  position: absolute;
+  left: -42px;
+  top: 25px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0.6px 0.9px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: move;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+.circulo4 {
+  top: 50px;
+  width: 170px;
+  height: 25px;
+  border-radius: 30px;
+  background-color: #B22727;
+  position: absolute;
+  left: -77px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0.6px 0.9px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: move;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.circulo3 {
+  width: 220px;
+  height: 25px;
+  background-color: #EE5007;
+  position: absolute;
+  left: -100px;
+  top: 75px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0.6px 0.9px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: move;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.circulo2 {
+  border-radius: 30px;
+  width: 270px;
+  height: 25px;
+  background-color: #F8CB2E;
+  position: absolute;
+  left: -125px;
+  top: 100px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0.6px 0.9px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: move;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.circulo1 {
+  border-radius: 30px;
+  width: 320px;
+  height: 25px;
+  background-color: #006E7F;
+  position: absolute;
+  left: -151px;
+  top: 125px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0.6px 0.9px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: move;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
